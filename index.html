@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>D'generator</title>
+</head>
+<body>
+  <main>
+    <section class="content">
+     <h1 id='title-page'></h1>
+
+    <div class="media-content"></div>
+      
+    </section>
+    
+    <!-- No need to change anything in this section -->
+    <section class="sidebar">
+      <h2>Actions</h2>
+      <button onclick="showMeme()" id="meme-bttn">Show a Meme</button>
+      <button onclick="showJoke()" id="joke-bttn">Tell Me a Joke</button>
+      <button onclick="showQuote()" id="quote-bttn">Random Quote</button>
+      <button onclick="showRiddle()"id="riddle-bttn">Riddle me</button>
+      <button id='reveal' class="reveal-btn hide" onclick="revealAnswers()">Reveal Riddle Answer</button>
+      <p class="attribution">Code challenge by <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a></p> 
+
+      <script type="module" src="./jsonServer.js"></script>
+      <script type="text/javascript" src="./app.js" ></script>
+      
+
+    </section>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+  
