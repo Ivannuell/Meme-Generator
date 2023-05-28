@@ -15,6 +15,7 @@ function showMeme() {
   
   title.innerHTML = "MEMES";
 
+  const container = document.querySelector('.media-content');
   const newImg = document.createElement('img');
 
   function assignObj(data) {
