@@ -95,8 +95,8 @@ function showRiddle() {
 
   document.getElementById('reveal').classList.remove('hide');
   const container = document.querySelector('.media-content');
-  const riddle = document.createElement('div');
-  const answer = document.createElement('div');
+  const riddle = document.createElement('p');
+  const answer = document.createElement('p');
 
   function assignObj(data) {
     const random = Math.floor(Math.random() * data.length);
