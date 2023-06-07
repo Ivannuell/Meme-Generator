@@ -22,7 +22,7 @@ function showMeme() {
     const random = Math.floor(Math.random() * data.length);
     newImg.setAttribute('src', data[random].path);
     newImg.setAttribute('class', 'center');
-    newImg.setAttribute('onerror', 'showMeme');
+    newImg.setAttribute('onerror', 'showMeme()');
     container.appendChild(newImg);
   }
 
